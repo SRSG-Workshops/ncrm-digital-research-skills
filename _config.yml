@@ -13,7 +13,7 @@ title: "NCRM Digital Research Skills for Social Scientists"
 form_title: "NCRM+Digital+Research+Skills+for+Social+Scientists" # This is required for the surveys
 
 # Email address, no mailto:
-email: "rsginfo@soton.ac.uk"
+email: "rsg-info@soton.ac.uk"
 logo_site: "https://rsgsoton.net"
 
 # For static delivery this section can all be ignored ==================================================================
@@ -166,4 +166,5 @@ plugins:
   - jekyll-include-cache
   - jekyll-target-blank
   - jekyll-github-metadata
+
 
