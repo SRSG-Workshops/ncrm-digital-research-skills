@@ -9,8 +9,8 @@ delivery: "static"
 # Overall title for the Workshop.
 # This variable is used to (optionally) add a title in the "jumbotron"
 # (the grey box at the top of the page), and to the extra pages.
-title: "TBC Workshop Title"
-form_title: "TBC+Workshop+Title" # This is required for the surveys
+title: "NCRM Digital Research Skills for Social Scientists"
+form_title: "NCRM+Digital+Research+Skills+for+Social+Scientists" # This is required for the surveys
 
 # Email address, no mailto:
 email: "rsginfo@soton.ac.uk"
@@ -18,19 +18,19 @@ logo_site: "https://rsgsoton.net"
 
 # For static delivery this section can all be ignored ==================================================================
 # Specify the location of the workshop
-venue: "TBC"           # name of location use "online" if online
+venue: "online"           # name of location use "online" if online
 address: "TBC"         # address of location or url of platform
-platform-name: "TBC"   # name of online platform e.g. Teams, Zoom e.t.c
-country: "TBC"         # e.g. gb
-language: "TBC"        # e.g. en
+platform-name: "Teams"   # name of online platform e.g. Teams, Zoom e.t.c
+country: "gb"         # e.g. gb
+language: "en"        # e.g. en
 latitude: "50.909698"    # latitude of location (Soton: 50.909698)
 longitude: "-1.404351"   # longitude of location (Soton: -1.404351)
 
 # Specify the start and end date of the workshop
-humandate: "TBC"      # e.g. "6th August"
-humantime: "TBC"      # e.g. "09:00-17:00"
-startdate: "1990-01-01"        # e.g. YYYY-MM-DD # This is required for the surveys NOTE: 1990-1-1 will not work
-enddate: "TBC"          # e.g. YYYY-MM-DD
+humandate: "3rd March - 6th March 2026"      # e.g. "6th August"
+humantime: "09:30-13:00"      # e.g. "09:00-17:00"
+startdate: "2026-03-03"        # e.g. YYYY-MM-DD # This is required for the surveys NOTE: 1990-1-1 will not work
+enddate: "2026-03-06"          # e.g. YYYY-MM-DD
 
 # Specify the details of the instructors and helpers
 # Can be list, or single string
@@ -45,47 +45,24 @@ helper:
   - "Helper 2"
 # ======================================================================================================================
 
-# See https://github.com/Southampton-RSG-Training/setup-documents for setup instructions.
-setup_docs:
-  - remote_desktop.md
+# See https://github.com/Southampton-RSG-Training/setup-documents for setup instructions
 
 # Details about the lessons
 lessons:
-  - title: Best Practices in Data Organisation Using Spreadsheets
-    gh-name: spreadsheets
-    branch: main
-    date: 13 January 2022
-    start-time: 15:00
-    order: 1
-
-  - title: Data Cleaning with OpenRefine
-    gh-name: openrefine-data-cleaning
-    branch: main
-    date: 14 January 2022
-    start-time: 15:00
-    order: 2
-
-  - title: Managing Academic Software Development
-    gh-name: project-novice
-    branch: main
-    date: 10 January 2022
-    start-time: 9:30 am
-    order: 3
-
   - title: Automating Tasks with the Unix Shell  # Lesson title
     org-name: Southampton-RSG-Training           # Name of the GitHub organisation (or individual) the lesson is in defaults to Southampton-RSG-Training
     gh-name: shell-novice                        # Name of the GitHub repository for the lesson at https://github:com/{org-name}:
     branch: main                                 # Set the branch of the repository to use, useful for lesson customization
     date: 8 January 2022                         # The date of the lesson                   # date and start-time are required for z
     start-time: 10:30 am                         # The start time of the lesson             # 'kind: workshop'
-    order: 4                                     # The position of the lesson in the course # order is required for 'delivery: static'
+    order: 1                                     # The position of the lesson in the course # order is required for 'delivery: static'
 
   - title: Version Control with git
     gh-name: git-novice
     branch: main
     date: 9 January 2022
     start-time: 8:30 am
-    order: 5
+    order: 2
 
   - title: Building Programs with Python
     gh-name: python-novice
@@ -96,21 +73,7 @@ lessons:
     start-time:
       - 10:00 am
       - 10:00 am
-    order: 6
-
-  - title: Data Analysis and Visualization in R
-    gh-name: r-novice
-    type: episode
-    branch: main
-    date:
-      - 9 October 2024
-      - 10 October 2024
-      - 11 October 2024
-    start-time:
-      - 09:30
-      - 09:30
-      - 09:30
-    order: 7
+    order: 3
 
 ###
 # It is unlikely you need to modify the values below this line
@@ -203,3 +166,4 @@ plugins:
   - jekyll-include-cache
   - jekyll-target-blank
   - jekyll-github-metadata
+
